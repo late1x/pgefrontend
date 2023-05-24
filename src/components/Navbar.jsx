@@ -9,7 +9,7 @@ const NavbarD = () => {
 
   const Logout = async () => {
     try {
-      await axios.delete('http://localhost:5000/logout');
+      await axios.delete('https://clownfish-app-wqiu8.ondigitalocean.app/logout');
       navigate("/");
     } catch (error) {
       console.log(error);
