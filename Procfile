@@ -1,1 +1,1 @@
-web:sh -c 'npm run build && npm run preview'
+web:npm run serve
