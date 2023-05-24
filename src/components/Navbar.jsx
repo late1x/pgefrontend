@@ -42,7 +42,7 @@ const NavbarD = () => {
         className={`navbar-menu ${isActive ? "is-active" : ""} is-mobile`}
       >
         <div className="navbar-start">
-          <a href="/home" className="navbar-item" style={{ textDecoration: 'none' }}>
+          <a href="https://plasticosge-bafk9.ondigitalocean.app/" className="navbar-item" style={{ textDecoration: 'none' }}>
             Home
           </a>
 
