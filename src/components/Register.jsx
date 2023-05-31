@@ -13,7 +13,7 @@ const Register = () => {
     const Register = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://clownfish-app-wqiu8.ondigitalocean.app/users', {
+            await axios.post('https://walrus-app-6rnot.ondigitalocean.app/users', {
                 name: name,
                 email: email,
                 password: password,

@@ -10,7 +10,7 @@ const navigate = useNavigate();
     const Auth = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://clownfish-app-wqiu8.ondigitalocean.app/login', {
+            await axios.post('https://walrus-app-6rnot.ondigitalocean.app/login', {
                 email: email,
                 password: password
             });
